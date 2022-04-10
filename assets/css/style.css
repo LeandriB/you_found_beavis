@@ -1,0 +1,87 @@
+/* Removes default browser enforced styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f0e0e;
+}
+
+/* Header styling */
+header {
+    padding: 20px 30px;
+    background-color: #30343f;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #ea9ab2;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: #ea9ab2;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 10px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.hero {
+    background-image:  url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+section {
+    padding: 30px 50px;
+}
+
+.section-title {
+    font-size: 36px;
+    padding: 20px 0 20px 20px;
+    color: #ea9ab2;
+    border-right: 2px solid #30343f;
+    width: 172px;
+}
+
+.card {
+    border: 2px solid #0f0e0e;
+    margin: 20px;
+}
+
+.parent img {
+    height: auto;
+    width: 100%;
+}
+
+footer {
+    padding: 20px;
+    background-color: #30343f;
+    height: 60px;
+}
+
+footer h3 {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+

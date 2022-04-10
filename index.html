@@ -5,26 +5,60 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>You Found Beavis</title>
+        <!-- Link to external stylesheet -->
+        <link rel="stylesheet" href="./assets/css/style.css"/>
     </head>
     <body>
         <header>
-            <h1>Leandri B.</h1>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="#resume">Resume</a></li>
-            </ul>
+            <h1>Leandri Beavis</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                </ul>
+            </nav>
         </header>
         <section class="hero"></section>
-        <section id="about-me">
-            <h2 >About Me</h2>
+        <section id="about-me" class="parent">
+            <h2 class="section-title">About Me</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, aspernatur suscipit. Molestias sit non obcaecati, vitae distinctio aspernatur sequi doloremque, eligendi nesciunt facilis deserunt quod, voluptatibus nihil quis facere delectus.
+            </p>
         </section>
-        <section id="work">
-            <h2>Work</h2>
+        <section id="work" class="parent">
+            <h2 class="section-title">Work</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="./assets/images/run_buddy.png" alt=""/>
+                    <h3>Run Buddy</h3>
+                    <h4>HTML/CSS</h4>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/memory_game.png" alt=""/>
+                    <h3>Superhero Memory Game</h3>
+                    <h4>HTML/CSS/JS</h4>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/personal_blog.png" alt=""/>
+                    <h3>Personal Blog</h3>
+                    <h4>HTML/CSS/JS</h4>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/landing_page.png" alt=""/>
+                    <h3>Landing Page</h3>
+                    <h4>HTML/CSS/JS</h4>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/weather_journal.png" alt=""/>
+                    <h3>Weather Journal</h3>
+                    <h4>HTML/CSS/JS</h4>
+                </div>
+            </div>
         </section>
-        <section id="contact-me">
-            <h2>Contact Me</h2>
+        <section id="contact-me" class="parent">
+            <h2 class="section-title">Contact Me</h2>
             <ul>
                 <li>555.555.5555</li>
                 <li>leandrikuyk@gmail.com</li>
@@ -33,6 +67,8 @@
                 <li>Instagram</li>
             </ul>
         </section>
-        <footer></footer>
+        <footer>
+            <h3>💕 Made with love by Leandri B</h3>
+        </footer>
     </body>
 </html>

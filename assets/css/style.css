@@ -12,8 +12,12 @@ body {
 
 /* Header styling */
 header {
-    padding: 20px 30px;
+    padding: 20px 35px;
     background-color: #30343f;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
 }
 
 header h1 {
@@ -21,7 +25,6 @@ header h1 {
     font-size: 36px;
     color: #ea9ab2;
     margin: 0;
-    display: inline;
 }
 
 header a {
@@ -30,12 +33,15 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0px;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
@@ -55,20 +61,46 @@ section {
     padding: 30px 50px;
 }
 
+.section-container {
+    display: flex;
+}
+
 .section-title {
     font-size: 36px;
-    padding: 20px 0 20px 20px;
+    padding: 20px 20px 20px 20px;
     color: #ea9ab2;
-    border-right: 2px solid #30343f;
     width: 172px;
+    justify-content: space-between;
+}
+
+section div ul li {
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    margin: 0 10px;
+    justify-content: space-around;
 }
 
 .card {
     border: 2px solid #0f0e0e;
     margin: 20px;
+    flex-grow: 1;
 }
 
-.parent img {
+.border {
+    border-left: 2px solid #30343f;
+    padding: 20px;
+}
+
+.section-container div {
+    width: 80%;
+}
+
+.section-container h2 {
+    text-align: right;
+}
+
+.section-container img {
     height: auto;
     width: 100%;
 }
@@ -84,4 +116,3 @@ footer h3 {
     width: 100%;
     color: #fff;
 }
-

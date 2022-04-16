@@ -55,15 +55,20 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
     height: 250px;
+    border: solid 2px red;
 }
 
 section {
     padding: 30px 50px;
+    border: solid 2px red;
 }
 
 .section-container {
     display: flex;
+    /* flex-direction: row; */
+    border: solid 2px red;
 }
+
 
 .section-title {
     font-size: 36px;
@@ -81,10 +86,27 @@ section div ul li {
     justify-content: space-around;
 }
 
+.section-cards {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
 .card {
+    margin: 10px;
+    border: solid 2px red;
+    flex: 1 40%;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
     border: 2px solid #0f0e0e;
-    margin: 20px;
-    flex-grow: 1;
+    border: solid 2px red;
 }
 
 .border {
@@ -100,10 +122,14 @@ section div ul li {
     text-align: right;
 }
 
+.contact-info {
+    margin-top: 4%;
+}
+/* 
 .section-container img {
     height: auto;
     width: 100%;
-}
+} */
 
 footer {
     padding: 20px;

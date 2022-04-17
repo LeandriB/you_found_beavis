@@ -23,6 +23,11 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
+    background-image: url("../images/blog_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header h1 {
@@ -64,26 +69,18 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image:  url("../images/hero-bg.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image:  url("../images/blog_image.jpg");
     height: 26vw;
     width: 100vw;
-}
-
-/* 
-.self-portrait {
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    top: 6rem;
-    width: 25vw;
-    height: 45vh;
-    background-image: url("../images/me.png");
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-} */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
 
 section {
     padding: 30px 50px;
@@ -151,6 +148,7 @@ section div ul li a {
 
 .card-info {
     position: absolute;
+    border-radius: 3px;
     bottom: 25px;
     left: 10px;
     background-color: var(--secondary-color);

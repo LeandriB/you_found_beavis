@@ -67,25 +67,36 @@ header nav ul li a:hover {
     background-image:  url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
-    height: 250px;
-    border: solid 2px red;
+    height: 26vw;
+    width: 100vw;
 }
+
+/* 
+.self-portrait {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 6rem;
+    width: 25vw;
+    height: 45vh;
+    background-image: url("../images/me.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 section {
     padding: 30px 50px;
-    border: solid 2px red;
 }
 
 .section-container {
     display: flex;
     /* flex-direction: row; */
-    border: solid 2px red;
 }
-
 
 .section-title {
     font-size: 36px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 10px 20px 20px;
     color: var(--primary-color);
     width: 172px;
     justify-content: space-between;
@@ -108,19 +119,28 @@ section div ul li a {
 
 .card {
     margin: 10px;
-    border: solid 2px red;
     flex: 1 40%;
     padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
+    position: relative;
 }
 
 .card img {
-    height: 200px;
-    width: 100%;
+    /* position: absolute; */
+    background-position: top;
+    background-repeat: no-repeat;
+    top: 0;
+    max-width: 100%;
     border: 2px solid #0f0e0e;
-    border: solid 2px red;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 25px;
+    left: 10px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .border {
@@ -129,7 +149,7 @@ section div ul li a {
 }
 
 .section-container div {
-    width: 80%;
+    width: fit-content;
 }
 
 .section-container h2 {
@@ -150,7 +170,8 @@ section div ul li a {
 .social-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
     
 }
 
@@ -164,9 +185,18 @@ section div ul li a {
     margin: 0 15px 5px 0;
 }
 
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .grow:hover { 
+    transform: scale(1.1); 
+    }
+
 footer {
     padding: 20px;
     background-color: var(--secondary-color);
+    opacity: 2;
     height: 60px;
 }
 

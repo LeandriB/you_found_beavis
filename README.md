@@ -28,17 +28,19 @@ OR
 
 ## Live Preview
 
+View a [live preview](https://leandrib.github.io/you_found_beavis/) of my project.
 
 ## Screenshot
 
+![Portfolio](assets/images/preview1.png)
 
 ## Attributions
 
-[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
-[Display element on hover](https://www.w3schools.com/howto/howto_css_display_element_hover.asp)
-[How to link number to icon](https://www.gaintap.com/archives/clickable-website-phone-number-and-call-tracking-guide/)
-[How to display text over image](https://www.w3schools.com/howto/howto_css_image_text_blocks.asp)
-
+* [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
+* [Display element on hover](https://www.w3schools.com/howto/howto_css_display_element_hover.asp)
+* [How to link number to icon](https://www.gaintap.com/archives/clickable-website-phone-number-and-call-tracking-guide/)
+* [How to display text over image](https://www.w3schools.com/howto/howto_css_image_text_blocks.asp)
+* Icons by [Freepik](https://www.flaticon.com/authors/freepik)
 
 
 

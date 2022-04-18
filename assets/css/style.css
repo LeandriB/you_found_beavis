@@ -82,13 +82,14 @@ header nav ul li a:hover {
     background-position: 80%;
 }
 
+/* Content styling */
+
 section {
     padding: 30px 50px;
 }
 
 .section-container {
     display: flex;
-    /* flex-direction: row; */
 }
 
 .section-title {
@@ -205,7 +206,7 @@ section div ul li a {
     transition: all .2s ease-in-out; 
     }
     
-    .grow:hover { 
+.grow:hover { 
     transform: scale(1.1); 
     }
 
@@ -304,15 +305,24 @@ section div ul li a {
         padding-bottom: 0;
     }
 
+    .text {
+        font-size: 18px;
+    }
+
     .section-title {
         font-size: 36px;
-        width: 230px;
+        width: 80%;
         justify-content: space-between;
     }
 
     .section-container h2 {
         text-align: left;
     }
+
+    .card-info p {
+        font-style: italic;
+    }
+
     .contact {
         padding-left: 30px;
     }
@@ -326,7 +336,7 @@ section div ul li a {
     }
 
     .card-info {
-        font-size: 12px;
+        font-size: 20px;
         bottom: 15px;
     }
     
